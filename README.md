@@ -50,6 +50,40 @@ Use Postman or another API client to test the RESTful APIs. Here are some exampl
 |POST        |`/api/users/place-order/{userId}`            |Place Order                                 | User Only      |
 
 
+admin register data
+
+{
+    "userName": "admin_user",
+    "email": "admin@example.com",
+    "password": "adminPass123",
+    "role": "ADMIN"
+}
+
+admin login data 
+
+{
+    "userName": "admin_user",
+    
+    "password": "adminPass123"
+    
+}
+
+user register data 
+
+{
+    "userName": "john_doe",
+    "email":"john@gmail.com",
+    "password": "password123",
+    "role":"USER"
+}
+
+user login data
+
+{
+    "userName": "john_doe",
+    "password": "password123"
+}
+
 
 
 
